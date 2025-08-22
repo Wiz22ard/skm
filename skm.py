@@ -2,6 +2,8 @@ from bs4 import BeautifulSoup as bs4
 import requests
 import json
 import html
+import fake_useragent
+from faker import Faker
 
 base_url = 'https://skm.dephub.go.id/'
 
